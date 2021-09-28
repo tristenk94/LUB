@@ -15,11 +15,11 @@ C:/Users/Spore/Documents/GitHub/LUB/Background Test 2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50132
+55297
 Successfully changed project path to: C:/Users/Spore/Documents/GitHub/LUB/Background Test 2
 C:/Users/Spore/Documents/GitHub/LUB/Background Test 2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 48.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,39 +35,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001949 seconds.
+Registered in 0.002341 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 52.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.833 seconds
+- Completed reload, in  0.927 seconds
 Domain Reload Profiling:
-	ReloadAssembly (834ms)
-		BeginReloadAssembly (37ms)
+	ReloadAssembly (928ms)
+		BeginReloadAssembly (41ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (335ms)
-			LoadAssemblies (35ms)
+		EndReloadAssembly (358ms)
+			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (118ms)
+			SetupTypeCache (126ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (144ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (153ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
+				RefreshPlugins (53ms)
 				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadAttributes (65ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,37 +75,37 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002677 seconds.
+Registered in 0.003194 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.814 seconds
+- Completed reload, in  0.861 seconds
 Domain Reload Profiling:
-	ReloadAssembly (816ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (862ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (660ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (690ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
+			SetupTypeCache (241ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (250ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (259ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (175ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (180ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -113,14 +113,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2025 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.3 MB.
-System memory in use after: 91.4 MB.
+System memory in use before: 93.5 MB.
+System memory in use after: 91.6 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2447.
-Total: 3.256700 ms (FindLiveObjects: 0.195600 ms CreateObjectMapping: 0.065400 ms MarkObjects: 2.076000 ms  DeleteObjects: 0.918800 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2448.
+Total: 3.423400 ms (FindLiveObjects: 0.191300 ms CreateObjectMapping: 0.059800 ms MarkObjects: 2.251400 ms  DeleteObjects: 0.920300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,9 +134,2166 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0f32752d02253c1f7a852ac08d8575') in 0.010077 seconds 
-  Import took 0.013003 seconds .
+  path: Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Altar.prefab
+  artifactKey: Guid(38f75548c0b324b2682cbad7b09fcecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Altar.prefab using Guid(38f75548c0b324b2682cbad7b09fcecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a23b5cf8a75e42cfa70cba093efa001') in 0.407970 seconds 
+  Import took 0.411673 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Platform.prefab
+  artifactKey: Guid(e34f65b5b181cba41b8d90f80c2ed876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Platform.prefab using Guid(e34f65b5b181cba41b8d90f80c2ed876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1a670cf481a7bef6d87b6118c2dba5') in 0.051276 seconds 
+  Import took 0.056578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Statue.prefab
+  artifactKey: Guid(4946d16faf3cffd4ca19b7db01cd4705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Statue.prefab using Guid(4946d16faf3cffd4ca19b7db01cd4705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59265f723a0923d0a57b658df6888aee') in 0.042370 seconds 
+  Import took 0.047247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Column.prefab
+  artifactKey: Guid(81529e70f15846247b05a795f806f095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Column.prefab using Guid(81529e70f15846247b05a795f806f095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eff767f4600d12a4d80230938b528aa') in 0.019904 seconds 
+  Import took 0.023228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Wall.prefab
+  artifactKey: Guid(aa5c15515bd83ac42a8f2dfb8cc7a4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Wall.prefab using Guid(aa5c15515bd83ac42a8f2dfb8cc7a4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a9ef0dd154875d0a17c762a39d56cc') in 0.036019 seconds 
+  Import took 0.040576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Bridge.prefab
+  artifactKey: Guid(99bc9e353294345e7abf5f30512bf8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Models/Stone Structures/Bridge.prefab using Guid(99bc9e353294345e7abf5f30512bf8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ce52439206af4161c0365748f4239a') in 0.062136 seconds 
+  Import took 0.067422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 252.339255 seconds.
+  path: Assets/LEGO/Tutorials/Images/1_gettingStarted.png
+  artifactKey: Guid(5e302b4ffcdff4c1f8abae277fa3a218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Images/1_gettingStarted.png using Guid(5e302b4ffcdff4c1f8abae277fa3a218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c9411c312b9ff5524972f4ccf7adca') in 0.019653 seconds 
+  Import took 0.023179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/LEGO/Tutorials/Images/2_obstacle.png
+  artifactKey: Guid(88364b018525a4dc280e58fc7e0a8938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Images/2_obstacle.png using Guid(88364b018525a4dc280e58fc7e0a8938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed61e845b9699e88cd3bdbba6bab7fec') in 0.007677 seconds 
+  Import took 0.010607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/LEGO/Tutorials/Images/3_elevator.png
+  artifactKey: Guid(2bd8d75296bef4ccda8176b95d9b920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Images/3_elevator.png using Guid(2bd8d75296bef4ccda8176b95d9b920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55f5fda003ee4b47d5e4db6f5b758a3') in 0.007241 seconds 
+  Import took 0.010428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/LEGO/Tutorials/Images/6_custom.png
+  artifactKey: Guid(75c478339e2eb491683f2f44fdda3179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Images/6_custom.png using Guid(75c478339e2eb491683f2f44fdda3179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e1154ee2682898cc2b124b80f2bfb0') in 0.006881 seconds 
+  Import took 0.009905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/LEGO/Tutorials/1 Get Started/1_introImage.png
+  artifactKey: Guid(2008200ae7ad0462ebbd8586442466be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/1 Get Started/1_introImage.png using Guid(2008200ae7ad0462ebbd8586442466be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db568eb3664f9941cbd33bdcffe04f6') in 0.008534 seconds 
+  Import took 0.011719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/LEGO/Tutorials/Images/4_win.png
+  artifactKey: Guid(16340f04dba6745518f402d8b1bc0e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Images/4_win.png using Guid(16340f04dba6745518f402d8b1bc0e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5327a88e21988e0c34a29801f981a5c0') in 0.007458 seconds 
+  Import took 0.010488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/LEGO/Tutorials/Images/7_upload.png
+  artifactKey: Guid(62c6103917910485992371e462ec96e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Images/7_upload.png using Guid(62c6103917910485992371e462ec96e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd832e185521d53153382550dd4b98012') in 0.006991 seconds 
+  Import took 0.010117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/LEGO/Tutorials/Images/5_enemy.png
+  artifactKey: Guid(5743a289af0d446a2a5f4844ddbeab70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Images/5_enemy.png using Guid(5743a289af0d446a2a5f4844ddbeab70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4716656a54b654ef36f6e669e085d6') in 0.007291 seconds 
+  Import took 0.010909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/LEGO/Tutorials/Images/1_gettingStarted.png
+  artifactKey: Guid(5e302b4ffcdff4c1f8abae277fa3a218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Images/1_gettingStarted.png using Guid(5e302b4ffcdff4c1f8abae277fa3a218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c9411c312b9ff5524972f4ccf7adca') in 0.007319 seconds 
+  Import took 0.010448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.772362 seconds.
+  path: Assets/LEGO/Tutorials/Images/8_importasset.png
+  artifactKey: Guid(a3b0f45234ca63a48861ea7cb3296493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Tutorials/Images/8_importasset.png using Guid(a3b0f45234ca63a48861ea7cb3296493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221f685fbd9337fe841b235ba2f2d824') in 0.007373 seconds 
+  Import took 0.010493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png
+  artifactKey: Guid(71ebafeef3c03457483266a33ab2b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png using Guid(71ebafeef3c03457483266a33ab2b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d550149749c5d658dde2305a9c7dd2c') in 0.017253 seconds 
+  Import took 0.020692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001618 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png
+  artifactKey: Guid(71ebafeef3c03457483266a33ab2b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png using Guid(71ebafeef3c03457483266a33ab2b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d550149749c5d658dde2305a9c7dd2c') in 0.009029 seconds 
+  Import took 0.012167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011269 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-SlicedWithBorder.png
+  artifactKey: Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-SlicedWithBorder.png using Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0047f451bd446d8ab8d34fdaa0748536') in 0.010455 seconds 
+  Import took 0.013498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/LEGO Data/Textures/Bodies/636822.png
+  artifactKey: Guid(adca54e9120074bd68fb19133740c839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Bodies/636822.png using Guid(adca54e9120074bd68fb19133740c839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4c2998a55b77756922874674cbe649') in 0.008295 seconds 
+  Import took 0.011150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/Tutorial Icons/add-prefab.png
+  artifactKey: Guid(f77139ca467af4d0e840eeec0e62f121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/Tutorial Icons/add-prefab.png using Guid(f77139ca467af4d0e840eeec0e62f121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2926ce81671c4cf9cf8c45dc8439cd8f') in 0.007538 seconds 
+  Import took 0.010254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/Tutorial Icons/add-prefab@2x.png
+  artifactKey: Guid(cb88a5233232f48b6a3145ff433696a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/Tutorial Icons/add-prefab@2x.png using Guid(cb88a5233232f48b6a3145ff433696a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce28c850b943983bbe8db0de87cd40f') in 0.008851 seconds 
+  Import took 0.011842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063343 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png
+  artifactKey: Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png using Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c50c6b02d9b73c5e2e4a85549794a4') in 0.007291 seconds 
+  Import took 0.010448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png
+  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9424499d8ed03e8df785259fedae1b3') in 0.008200 seconds 
+  Import took 0.011085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.683832 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png
+  artifactKey: Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png using Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c673a4f73ecb39b34c0c364ab5d41a87') in 0.006733 seconds 
+  Import took 0.010191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png
+  artifactKey: Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png using Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4de0a7a5e4ce4511bc09095573cae8b') in 0.006233 seconds 
+  Import took 0.009443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png
+  artifactKey: Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png using Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c673a4f73ecb39b34c0c364ab5d41a87') in 0.005790 seconds 
+  Import took 0.008817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008483 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Alive Action.png
+  artifactKey: Guid(1cb0f6f33150d4e01916c22d8c8c0849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Alive Action.png using Guid(1cb0f6f33150d4e01916c22d8c8c0849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b920aa60a5b1c89d1350067c21f807') in 0.007194 seconds 
+  Import took 0.010561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/LEGO/Textures/LEGO Behaviour Icons/Alive Action Side.png
+  artifactKey: Guid(629b0df82e0e9418ea2a70e386cab3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/LEGO Behaviour Icons/Alive Action Side.png using Guid(629b0df82e0e9418ea2a70e386cab3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bcc22eb11ef5ce2e9d6ebc184ed0528') in 0.007443 seconds 
+  Import took 0.010450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Alive Action.png
+  artifactKey: Guid(1cb0f6f33150d4e01916c22d8c8c0849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Alive Action.png using Guid(1cb0f6f33150d4e01916c22d8c8c0849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b920aa60a5b1c89d1350067c21f807') in 0.006191 seconds 
+  Import took 0.009168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/LEGO/Textures/UI/Arrow Key.png
+  artifactKey: Guid(4340e723a12b045aa8cc6fc5b37629e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/UI/Arrow Key.png using Guid(4340e723a12b045aa8cc6fc5b37629e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ead1d82ac94f608dc7f64bb89229e27') in 0.009676 seconds 
+  Import took 0.012889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/Resources/icons/arrow-forward.png
+  artifactKey: Guid(4b830eb38c8d34f38acec2bc6fad2e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/Resources/icons/arrow-forward.png using Guid(4b830eb38c8d34f38acec2bc6fad2e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ee478b75e0738be9c3ad9918af069a') in 0.006664 seconds 
+  Import took 0.010006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/LEGO Data/NormalMaps/Arm_Main.png
+  artifactKey: Guid(58bc1e0fa34e14bd8859d3ae9f51ee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/NormalMaps/Arm_Main.png using Guid(58bc1e0fa34e14bd8859d3ae9f51ee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abe4b37a56aabb54daecb2a5430bd75') in 0.010991 seconds 
+  Import took 0.014047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/arrow-forward.png
+  artifactKey: Guid(0b731f63d2d0f4495bd21ce764137ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/arrow-forward.png using Guid(0b731f63d2d0f4495bd21ce764137ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fa5b0df758c37fb2852f59285d2ad1') in 0.006206 seconds 
+  Import took 0.009397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/Resources/icons/arrow-forward@2x.png
+  artifactKey: Guid(2d956ea264136457aa8d3850655f9f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/Resources/icons/arrow-forward@2x.png using Guid(2d956ea264136457aa8d3850655f9f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6c3a2310f9b7b64c92251305f08507') in 0.006270 seconds 
+  Import took 0.009965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/arrow-forward@2x.png
+  artifactKey: Guid(51986b408c21e4bc39c1d90d48276e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/arrow-forward@2x.png using Guid(51986b408c21e4bc39c1d90d48276e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1612249af7b45c4b6ffd502cae42ce4') in 0.005876 seconds 
+  Import took 0.008969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.935713 seconds.
+  path: Assets/LEGO/Gizmos/LEGO Behaviour Icons/Audio Action.png
+  artifactKey: Guid(b1f0f14707a0e4a589c9a546da887dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Gizmos/LEGO Behaviour Icons/Audio Action.png using Guid(b1f0f14707a0e4a589c9a546da887dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d694e37acbf4c0a3e9def18d9b7159e') in 0.008669 seconds 
+  Import took 0.011903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/Resources/icons/back-arrow.png
+  artifactKey: Guid(3f54ac0d5e8e149e2b351b7f02e5da41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/Resources/icons/back-arrow.png using Guid(3f54ac0d5e8e149e2b351b7f02e5da41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b466bbed17d6cd2451d6fbfc79af1b1') in 0.006936 seconds 
+  Import took 0.010030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/back-arrow.png
+  artifactKey: Guid(9e28232f2adf7408e8f1a58ebc86484e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/back-arrow.png using Guid(9e28232f2adf7408e8f1a58ebc86484e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d52720d0b6986679dc897b4257f5f3') in 0.007496 seconds 
+  Import took 0.010543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/LEGO/Textures/LEGO Behaviour Icons/Audio Action Side.png
+  artifactKey: Guid(ba67aea9db2204c3b90f88561cf1ea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/LEGO Behaviour Icons/Audio Action Side.png using Guid(ba67aea9db2204c3b90f88561cf1ea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f5f13fee8602ece7918d0477dc4622') in 0.007151 seconds 
+  Import took 0.010429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png
+  artifactKey: Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png using Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6418a2c11981f0acf802666f81ff2714') in 0.006709 seconds 
+  Import took 0.009758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png
+  artifactKey: Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png using Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626b8d703df2186d7c867ee863820d3e') in 0.007603 seconds 
+  Import took 0.010649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.422697 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png
+  artifactKey: Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png using Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b0a8c754a76bc310ba5fbde663e255') in 0.006610 seconds 
+  Import took 0.009770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png
+  artifactKey: Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png using Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9126f2c6a09177ddfe777bcef538ff86') in 0.006699 seconds 
+  Import took 0.009680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/LEGO/Textures/UI/Background With Outline.png
+  artifactKey: Guid(8e269321367fd406689f571c32a0e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/UI/Background With Outline.png using Guid(8e269321367fd406689f571c32a0e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1851567e1034dbb6ac302129df241e68') in 0.008688 seconds 
+  Import took 0.011611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/LEGO/Textures/UI/Background.png
+  artifactKey: Guid(04b846b79331f4f8192972ccf0591da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/UI/Background.png using Guid(04b846b79331f4f8192972ccf0591da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5075b2cf9aa59c2100a7a821488fd3ef') in 0.009766 seconds 
+  Import took 0.012906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/LEGO Data/Textures/Faces/630732/base.png
+  artifactKey: Guid(579278ff2942b4a889efa0fb6479a349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/630732/base.png using Guid(579278ff2942b4a889efa0fb6479a349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e03a47351f1c2d8500e0c53ff7d653') in 0.007682 seconds 
+  Import took 0.010842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/LEGO Data/Textures/Faces/Kai/base.png
+  artifactKey: Guid(4242d390a7c0948eb82b56af46cc505f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/Kai/base.png using Guid(4242d390a7c0948eb82b56af46cc505f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdea666df58ab9764ef58c528bd9ea2') in 0.007483 seconds 
+  Import took 0.010423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/LEGO Data/Textures/Faces/603297/base.png
+  artifactKey: Guid(450ed2c1392e146db9ef59fed4b674fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/603297/base.png using Guid(450ed2c1392e146db9ef59fed4b674fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9678909cf8bdef537ecdf3fe83fb2bb') in 0.006743 seconds 
+  Import took 0.009846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/LEGO Data/Textures/Faces/609477/base.png
+  artifactKey: Guid(714bee95e4d9a4a4c9f35e4fab8a22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/609477/base.png using Guid(714bee95e4d9a4a4c9f35e4fab8a22f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716eb3b5e1158142bf33cd0058e01407') in 0.007195 seconds 
+  Import took 0.010263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png
+  artifactKey: Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png using Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b0a8c754a76bc310ba5fbde663e255') in 0.005827 seconds 
+  Import took 0.008629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.300473 seconds.
+  path: Assets/LEGO Data/Textures/Faces/639146/base.png
+  artifactKey: Guid(116e786ac7ddf4a80a89f231d9d63ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/639146/base.png using Guid(116e786ac7ddf4a80a89f231d9d63ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d472735518ed36c10be3936426bd17') in 0.008082 seconds 
+  Import took 0.011248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/LEGO Data/Textures/Faces/641227/base.png
+  artifactKey: Guid(8f9eed2761f46471ebbb5b4460f5c5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/641227/base.png using Guid(8f9eed2761f46471ebbb5b4460f5c5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3367c4fa882f870db0b85864a09e6fd7') in 0.007151 seconds 
+  Import took 0.009946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/LEGO Data/Textures/Faces/622366/base.png
+  artifactKey: Guid(abd3fce7c13834c03a4b7543875b6f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/622366/base.png using Guid(abd3fce7c13834c03a4b7543875b6f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcaa51fe56057595aefcc5b88b0b2bb') in 0.008699 seconds 
+  Import took 0.011754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/LEGO Data/Textures/Faces/643187/base.png
+  artifactKey: Guid(4d4d0ab7eb1a44abc83ebb7e5e3c0fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/643187/base.png using Guid(4d4d0ab7eb1a44abc83ebb7e5e3c0fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da77e6eae08b02e6f28860c793bc1ab6') in 0.007665 seconds 
+  Import took 0.010930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/LEGO Data/Textures/Faces/639146/base.png
+  artifactKey: Guid(116e786ac7ddf4a80a89f231d9d63ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/639146/base.png using Guid(116e786ac7ddf4a80a89f231d9d63ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d472735518ed36c10be3936426bd17') in 0.006693 seconds 
+  Import took 0.009661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/LEGO Data/Textures/Faces/641227/base.png
+  artifactKey: Guid(8f9eed2761f46471ebbb5b4460f5c5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/641227/base.png using Guid(8f9eed2761f46471ebbb5b4460f5c5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3367c4fa882f870db0b85864a09e6fd7') in 0.006226 seconds 
+  Import took 0.009489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/LEGO Data/Textures/Faces/643224/base.png
+  artifactKey: Guid(9f407953e22d549bf9d1b506e8d9dbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/643224/base.png using Guid(9f407953e22d549bf9d1b506e8d9dbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35cec3e95b1f53dc9c9c640deff556c') in 0.007062 seconds 
+  Import took 0.010296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/LEGO Data/Textures/Faces/614695/base.png
+  artifactKey: Guid(59cd9d41d8b5c4db4a39014e008af9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/614695/base.png using Guid(59cd9d41d8b5c4db4a39014e008af9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae56433e04f7d7b01bb91a0c08e48bd') in 0.007172 seconds 
+  Import took 0.010086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/LEGO Data/Textures/Faces/635922/base.png
+  artifactKey: Guid(ab78d67de763a4e53ad8adbad803d574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/635922/base.png using Guid(ab78d67de763a4e53ad8adbad803d574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d97b2ffba7ba86dc816e3b99a5162e1') in 0.007737 seconds 
+  Import took 0.011144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/LEGO Data/Textures/Faces/638263/base.png
+  artifactKey: Guid(f6cd0a7eef72941338b1125a67324f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/638263/base.png using Guid(f6cd0a7eef72941338b1125a67324f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fa2d1450a9a10fffceb06dc9136a70') in 0.007247 seconds 
+  Import took 0.010530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.244088 seconds.
+  path: Assets/LEGO Data/Textures/Faces/86295/base.png
+  artifactKey: Guid(3e0b4e095bde94de78d8b87675c3614c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/86295/base.png using Guid(3e0b4e095bde94de78d8b87675c3614c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa34ee9c9a027efbec65a6b8001dade4') in 0.007410 seconds 
+  Import took 0.010535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Packages/com.unity.lego.modelimporter/Textures/Brick Building Off@2x.png
+  artifactKey: Guid(d3db0c20cb3454277a0862f93529617f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.modelimporter/Textures/Brick Building Off@2x.png using Guid(d3db0c20cb3454277a0862f93529617f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc610283378fe7a405a600dcda1be4b') in 0.007378 seconds 
+  Import took 0.010496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/LEGO Data/Textures/Faces/55196/base.png
+  artifactKey: Guid(edafd1088218d4840af57bab73e0a5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Textures/Faces/55196/base.png using Guid(edafd1088218d4840af57bab73e0a5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2ad5f7afe2abc81d1ffafc1e5c2f25') in 0.007371 seconds 
+  Import took 0.010377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/LEGO/Textures/Stickers/Brick 2x2.png
+  artifactKey: Guid(7dc9cf904df2045cc9cbb2449bc26268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/Stickers/Brick 2x2.png using Guid(7dc9cf904df2045cc9cbb2449bc26268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6303139f12a8924edf592dc197dc3920') in 0.010972 seconds 
+  Import took 0.013843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Packages/com.unity.lego.modelimporter/Textures/Brick Building On@2x.png
+  artifactKey: Guid(0e478c5abc5d943b7b42f8aef70a3eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.lego.modelimporter/Textures/Brick Building On@2x.png using Guid(0e478c5abc5d943b7b42f8aef70a3eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae0ab9575ad4c85d58f8625ca978e96') in 0.007037 seconds 
+  Import took 0.009796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd
+  artifactKey: Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd using Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7357f28f43c0526a211b844ba791d3eb') in 0.007836 seconds 
+  Import took 0.010807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.258108 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd
+  artifactKey: Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633c128230dd65edd71219b64727c0ca') in 0.006837 seconds 
+  Import took 0.009935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd
+  artifactKey: Guid(ca51b19024094d1b87f3e07edb0a75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd using Guid(ca51b19024094d1b87f3e07edb0a75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04523af2aeb3be0a322de57cd8995ba7') in 0.006599 seconds 
+  Import took 0.009480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd
+  artifactKey: Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633c128230dd65edd71219b64727c0ca') in 0.005888 seconds 
+  Import took 0.008962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd
+  artifactKey: Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd using Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1e2320c4b78815b8c21ff039181187') in 0.006184 seconds 
+  Import took 0.009413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd
+  artifactKey: Guid(ca51b19024094d1b87f3e07edb0a75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd using Guid(ca51b19024094d1b87f3e07edb0a75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04523af2aeb3be0a322de57cd8995ba7') in 0.005486 seconds 
+  Import took 0.008377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd
+  artifactKey: Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd using Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a079342de24d14c65f157b6c7e0ae6f7') in 0.005889 seconds 
+  Import took 0.008618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.331894 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd
+  artifactKey: Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd using Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba262f6c54a6ef3152a07427159dbd1b') in 0.006296 seconds 
+  Import took 0.009366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd
+  artifactKey: Guid(81ed8c76d2bc4a4c95d092c98af4e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd using Guid(81ed8c76d2bc4a4c95d092c98af4e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b65032cf944f91dee952901c4484ca') in 0.006223 seconds 
+  Import took 0.009351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd
+  artifactKey: Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd using Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e73d85ef0e0c060f23d1a1f75a4614') in 0.006921 seconds 
+  Import took 0.009893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd
+  artifactKey: Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd using Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc1b025f9f6dd963f126fba6a803bed') in 0.006645 seconds 
+  Import took 0.009725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015704 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd
+  artifactKey: Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd using Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af7e1874d9f45d33675d9d02e0db557') in 0.006783 seconds 
+  Import took 0.010947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified.psd
+  artifactKey: Guid(92027f7f8cfc4feaa477da0dc38d3d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified.psd using Guid(92027f7f8cfc4feaa477da0dc38d3d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88eef17672ad372e2324d1e553fb607e') in 0.006590 seconds 
+  Import took 0.009840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush_Light.psd
+  artifactKey: Guid(64b9fad609434c489c32b1cdf2004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush_Light.psd using Guid(64b9fad609434c489c32b1cdf2004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40df2ce8ead2376e4e1692d8b7183a0f') in 0.006439 seconds 
+  Import took 0.009656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush.psd
+  artifactKey: Guid(691475c57a824010be0c6f474caeb7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush.psd using Guid(691475c57a824010be0c6f474caeb7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd247c4f0b1d0cddedcebb838ad6dbaaf') in 0.007260 seconds 
+  Import took 0.010257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.282177 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd
+  artifactKey: Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd using Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3495a4f3a49c42634a5695b8540d6fab') in 0.007490 seconds 
+  Import took 0.010817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft.psd
+  artifactKey: Guid(9288066c33474b94b6ee5465f4df1cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft.psd using Guid(9288066c33474b94b6ee5465f4df1cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dc3e5937843892c2c84456db69b25d') in 0.006555 seconds 
+  Import took 0.009632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd
+  artifactKey: Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignJustified_Light.psd using Guid(fa6bd40a216346b783a4cce741d277a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3495a4f3a49c42634a5695b8540d6fab') in 0.005476 seconds 
+  Import took 0.008393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft.psd
+  artifactKey: Guid(9288066c33474b94b6ee5465f4df1cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft.psd using Guid(9288066c33474b94b6ee5465f4df1cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dc3e5937843892c2c84456db69b25d') in 0.005338 seconds 
+  Import took 0.008499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033903 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft_Light.psd
+  artifactKey: Guid(12736c98af174f91827a26b66d2b01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignLeft_Light.psd using Guid(12736c98af174f91827a26b66d2b01b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf60b1334925257bea3cad348730fc4') in 0.006079 seconds 
+  Import took 0.009652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidLine.psd
+  artifactKey: Guid(c2f7f6a88b4c4f20a53deb72f3d9144c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidLine.psd using Guid(c2f7f6a88b4c4f20a53deb72f3d9144c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da461f005791a1fad92f877f5d40f6f') in 0.006010 seconds 
+  Import took 0.008852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd
+  artifactKey: Guid(066619c9c9c84f89acb1b48c11a7efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle_Light.psd using Guid(066619c9c9c84f89acb1b48c11a7efe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132a1ed4d7c735ea2f3bd7d592f2aadc') in 0.006058 seconds 
+  Import took 0.009023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidline_Light.psd
+  artifactKey: Guid(bb42b2d967d6427983c901a4ffc8ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMidline_Light.psd using Guid(bb42b2d967d6427983c901a4ffc8ecd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fed09cb1c96de6265de1196df7f425b') in 0.007568 seconds 
+  Import took 0.010493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight.psd
+  artifactKey: Guid(342a0f8aca7f4f0691338912faec0494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight.psd using Guid(342a0f8aca7f4f0691338912faec0494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1985abddfd9bb7a67d9bc9dc1d55e266') in 0.006211 seconds 
+  Import took 0.009009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle.psd
+  artifactKey: Guid(41b96614b2e6494ba995ddcd252d11ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignMiddle.psd using Guid(41b96614b2e6494ba995ddcd252d11ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9d1e23908e8922585aa890f966e4c5') in 0.005864 seconds 
+  Import took 0.008833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.796539 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd
+  artifactKey: Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignRight_Light.psd using Guid(e05ace3bd15740cda0bad60d89092a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4772f5132af1c7e6fd51c0d05a0e1ad1') in 0.006394 seconds 
+  Import took 0.009498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Capsule.png
+  artifactKey: Guid(bd3cb4af8406d4436a2ae8c2aafe1f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Capsule.png using Guid(bd3cb4af8406d4436a2ae8c2aafe1f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49cbc9212d5c19193cd410aab5b1e1d') in 0.009873 seconds 
+  Import took 0.013106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Catamaran-Bold SDF.asset
+  artifactKey: Guid(a14e522e426f5472a8c9710aa5b252b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Catamaran-Bold SDF.asset using Guid(a14e522e426f5472a8c9710aa5b252b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba89e02d8ca865841cfcd9a256e0179') in 0.051538 seconds 
+  Import took 0.054530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/Resources/icons/checkmark@2x.png
+  artifactKey: Guid(636f2942b90a040949e09d2e2475edd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/Resources/icons/checkmark@2x.png using Guid(636f2942b90a040949e09d2e2475edd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f494e927a5ba65dea904ec45cc1e1681') in 0.006408 seconds 
+  Import took 0.009314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-dark.png
+  artifactKey: Guid(289215d22fcafb941b9e25f8609e25b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-dark.png using Guid(289215d22fcafb941b9e25f8609e25b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc7f0acb99ffac5c1f4ffe8f23e546d') in 0.007138 seconds 
+  Import took 0.010119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/Resources/icons/close@2x.png
+  artifactKey: Guid(8d9e24be8d3dd4e5c89cf94ed0cac3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/Resources/icons/close@2x.png using Guid(8d9e24be8d3dd4e5c89cf94ed0cac3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea0458665a50cd63af667f15b56e2e7') in 0.007190 seconds 
+  Import took 0.010131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-dark@2x.png
+  artifactKey: Guid(158d9c687149a0e499002e08c9420c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-dark@2x.png using Guid(158d9c687149a0e499002e08c9420c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee6f82510fd35ed8a20b9e873586131') in 0.006959 seconds 
+  Import took 0.009980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light@2x.png
+  artifactKey: Guid(8478a99d8fb61c94ba938c3034d449c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light@2x.png using Guid(8478a99d8fb61c94ba938c3034d449c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460f25394ebda4fe9275e9794f45cd3e') in 0.006711 seconds 
+  Import took 0.009987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-dark@2x.png
+  artifactKey: Guid(39c95c5cb14167543b9aa5908c94bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-dark@2x.png using Guid(39c95c5cb14167543b9aa5908c94bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f839ca2ef4af99d58a805261e90f73') in 0.006276 seconds 
+  Import took 0.009726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/LEGO/Textures/Particles/Bubble.png
+  artifactKey: Guid(c70f1fa40c1f54b75a4e298516a23d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/Particles/Bubble.png using Guid(c70f1fa40c1f54b75a4e298516a23d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd448f4d79c436432178a6191d5889cc7') in 0.007188 seconds 
+  Import took 0.010212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/Resources/icons/close.png
+  artifactKey: Guid(0768ee0d3bc984ef3ba50d3e93d4480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/Resources/icons/close.png using Guid(0768ee0d3bc984ef3ba50d3e93d4480c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fae4442eba1dd43d24d967cc4a0e5d') in 0.006405 seconds 
+  Import took 0.009237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-dark.png
+  artifactKey: Guid(8558913fe46542045b38c8f97ef8546a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-dark.png using Guid(8558913fe46542045b38c8f97ef8546a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adef9f622f2b38bae338e4cea0cace14') in 0.007136 seconds 
+  Import took 0.010221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png
+  artifactKey: Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png using Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2095d338518b3e9aa4dd3f92938fceb5') in 0.010018 seconds 
+  Import took 0.012929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-dark@2x.png
+  artifactKey: Guid(fba4512e3548e0548b2cf4f11913e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-dark@2x.png using Guid(fba4512e3548e0548b2cf4f11913e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc3098b39ae1bb08224099f25808325') in 0.007187 seconds 
+  Import took 0.010204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-light.png
+  artifactKey: Guid(68d404d4616084f449a3bc644c023f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-light.png using Guid(68d404d4616084f449a3bc644c023f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b4b194d4903b63d3dade8c33ccbbe4') in 0.007242 seconds 
+  Import took 0.010755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-light.png
+  artifactKey: Guid(78f56e873f56d7943aef2a039430732e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-light.png using Guid(78f56e873f56d7943aef2a039430732e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88780b3d1eb55aecfe7864a48a03f264') in 0.007102 seconds 
+  Import took 0.010241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/Resources/icons/checkmark.png
+  artifactKey: Guid(2ab3362110e144952be226ef0d228d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/Resources/icons/checkmark.png using Guid(2ab3362110e144952be226ef0d228d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4500630c857c03d374d59e23f1d2402') in 0.097495 seconds 
+  Import took 0.100432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-light@2x.png
+  artifactKey: Guid(1bceea0c53eecc244a50615c7958486d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-light@2x.png using Guid(1bceea0c53eecc244a50615c7958486d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b6c6a63f4ea8e848d6457740204e2f') in 0.006513 seconds 
+  Import took 0.009601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleWithBorder.png
+  artifactKey: Guid(4adeaf2d2b1c7417e89f026626d8264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleWithBorder.png using Guid(4adeaf2d2b1c7417e89f026626d8264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa687ec49bcf7d7c9e7ea07758b88f40') in 0.010666 seconds 
+  Import took 0.014012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop_Light.psd
+  artifactKey: Guid(ed041e68439749a69d0efa0e3d896c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop_Light.psd using Guid(ed041e68439749a69d0efa0e3d896c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5d62fab3a3e3acd6e463abb66f3361') in 0.006326 seconds 
+  Import took 0.009200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/close@2x.png
+  artifactKey: Guid(94f3b87147a7a419b94fdcddac08284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/close@2x.png using Guid(94f3b87147a7a419b94fdcddac08284c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995fb60e23aa4cce7d08153208810ca9') in 0.007046 seconds 
+  Import took 0.010166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Packages/com.unity.cinemachine/Gizmos/cm_logo.png
+  artifactKey: Guid(b8ba3923a6094cd48b85425f47fd7450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/Gizmos/cm_logo.png using Guid(b8ba3923a6094cd48b85425f47fd7450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecaebd18d6b8c5d5ecf5cb2d35f063e') in 0.007173 seconds 
+  Import took 0.010181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-dark.png
+  artifactKey: Guid(80c31f397a3ab184bae2f0d4b3dc5c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-done-dark.png using Guid(80c31f397a3ab184bae2f0d4b3dc5c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7994e8f6a99f01ec0ec8b481abb1f20e') in 0.006373 seconds 
+  Import took 0.009408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-dark@2x.png
+  artifactKey: Guid(c98f350e47082844fa2954de4d2d5ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-dark@2x.png using Guid(c98f350e47082844fa2954de4d2d5ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e4fd759e10015a5015c5a6086f4830') in 0.006821 seconds 
+  Import took 0.009914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png
+  artifactKey: Guid(ddf2e76e8a1f88f46ae1e42277850b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png using Guid(ddf2e76e8a1f88f46ae1e42277850b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287180628ae140389622399999fe4d18') in 0.009725 seconds 
+  Import took 0.012666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-light.png
+  artifactKey: Guid(2c0bdcbf152ceb64ba9b01cc370a9092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-light.png using Guid(2c0bdcbf152ceb64ba9b01cc370a9092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5998491303852d33df6ccc984145b0a4') in 0.007569 seconds 
+  Import took 0.010738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light.png
+  artifactKey: Guid(c27f4e1f2b76b2f45b48df65c02ba338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light.png using Guid(c27f4e1f2b76b2f45b48df65c02ba338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a564cb29b9edf69c7402c94d3009672f') in 0.006289 seconds 
+  Import took 0.009207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-dark.png
+  artifactKey: Guid(a972d8b163b45d54b89085acf50327e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-dark.png using Guid(a972d8b163b45d54b89085acf50327e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fb61deb926efe36d05315eed85239a') in 0.006103 seconds 
+  Import took 0.009089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/cm_logo_sm.png
+  artifactKey: Guid(5f2a108eb023faf43a809979fd3d38f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/cm_logo_sm.png using Guid(5f2a108eb023faf43a809979fd3d38f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9643f4dac8f1e11fbcbb9037d96aba78') in 0.007080 seconds 
+  Import took 0.010251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-light.png
+  artifactKey: Guid(713aeedbd53e6b848a68d0755e7a2c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-light.png using Guid(713aeedbd53e6b848a68d0755e7a2c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0c6bc1168e0bbc0e5ffc6e1c6357d4') in 0.006187 seconds 
+  Import took 0.009123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-dark@2x.png
+  artifactKey: Guid(a26232d4d188e4440897131ed223d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-dark@2x.png using Guid(a26232d4d188e4440897131ed223d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1625ba85c85712e44b4176a7ee8bb2a9') in 0.006338 seconds 
+  Import took 0.009343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/close.png
+  artifactKey: Guid(24e966bc49ee946809dd2d7bc6549747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/close.png using Guid(24e966bc49ee946809dd2d7bc6549747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcedae09ecf449ecb6cc82d06fdc2a55') in 0.006489 seconds 
+  Import took 0.009478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/checkmark.png
+  artifactKey: Guid(e485d5835a1bd4efc9b5356b867fc8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/checkmark.png using Guid(e485d5835a1bd4efc9b5356b867fc8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879df3ef417d48c5579d121043261725') in 0.005901 seconds 
+  Import took 0.009246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleMask.png
+  artifactKey: Guid(87aaca0a643d54397ba969dab4fc8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CircleMask.png using Guid(87aaca0a643d54397ba969dab4fc8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a582a2d5d57e574cf1f0971beb8dc0') in 0.009610 seconds 
+  Import took 0.012657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark.png
+  artifactKey: Guid(07ab2758fd6b77141ae34a703972f385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark.png using Guid(07ab2758fd6b77141ae34a703972f385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc9944638c91a1bdeb9b15638a1d9f5') in 0.006579 seconds 
+  Import took 0.009625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/LEGO/Textures/Stickers/Camera.png
+  artifactKey: Guid(2fb2330c8366b4d2b8d3522abc837b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/Stickers/Camera.png using Guid(2fb2330c8366b4d2b8d3522abc837b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2659107d15e87f49c2074db2798a5c') in 0.011065 seconds 
+  Import took 0.014021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png
+  artifactKey: Guid(ebe73ca9363db456bacf42c025bb4847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Circle.png using Guid(ebe73ca9363db456bacf42c025bb4847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe08f12e3aa4f91cfb5136671e09fe23') in 0.009699 seconds 
+  Import took 0.012647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/LEGO/Textures/UI/Check Mark.png
+  artifactKey: Guid(2c37af5e264f74cfe845659bb567dd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/UI/Check Mark.png using Guid(2c37af5e264f74cfe845659bb567dd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1aea70c7304b6ee74775de017c0c31') in 0.011308 seconds 
+  Import took 0.014406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-light@2x.png
+  artifactKey: Guid(c84258b6921bcce45a57f68a07b2143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-light@2x.png using Guid(c84258b6921bcce45a57f68a07b2143f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3825b2cb1e68d8bf7c19e5bc0bf004c6') in 0.006978 seconds 
+  Import took 0.009823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-light@2x.png
+  artifactKey: Guid(2c8a8b796d0907747a9518f9458b2259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-light@2x.png using Guid(2c8a8b796d0907747a9518f9458b2259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f952b30502eb0e3cfec25a86cfcff3c') in 0.006552 seconds 
+  Import took 0.009575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png
+  artifactKey: Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png using Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057b6a1037451dbd6e24b9053ecbbb1d') in 0.008855 seconds 
+  Import took 0.012085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop.psd
+  artifactKey: Guid(48d034c499ee4697af9dd6e327110249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignTop.psd using Guid(48d034c499ee4697af9dd6e327110249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590d62a99df4b6d90eb71fde58ab8f4d') in 0.006313 seconds 
+  Import took 0.009348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-dark.png
+  artifactKey: Guid(432426364f0e2474b9817a7e5b9dd1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/clear-dark.png using Guid(432426364f0e2474b9817a7e5b9dd1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b1f55f4557ba7f9e9a31527e1684a8') in 0.006149 seconds 
+  Import took 0.008997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark@2x.png
+  artifactKey: Guid(1a2cea5a396ff5d4a8f740bd5d8726b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark@2x.png using Guid(1a2cea5a396ff5d4a8f740bd5d8726b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bc2aa76f958af447ecc57041bfd5c9') in 0.006392 seconds 
+  Import took 0.009523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CapsuleWithBorder.png
+  artifactKey: Guid(34587324d412940a79d530020c957dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/CapsuleWithBorder.png using Guid(34587324d412940a79d530020c957dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eca24533326e4fb8fe7fbc0a94c46f4') in 0.009998 seconds 
+  Import took 0.013285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png
+  artifactKey: Guid(f09eae8c0ea04254b90c5386a034a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png using Guid(f09eae8c0ea04254b90c5386a034a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d364013f1994bf8810c313a6a782a7') in 0.008170 seconds 
+  Import took 0.011117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Packages/com.unity.cinemachine/Editor/EditorResources/Cinemachine_header.tif
+  artifactKey: Guid(372fe04232d5ed94d8d71524616c1543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/Editor/EditorResources/Cinemachine_header.tif using Guid(372fe04232d5ed94d8d71524616c1543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe05590ced1af5a15b2539f6e3a4ab15') in 0.014233 seconds 
+  Import took 0.017742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.535704 seconds.
+  path: Assets/LEGO Data/Geometry/New/LOD0/49311.fbx
+  artifactKey: Guid(5ac2460cd498b44d593644491231eff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/New/LOD0/49311.fbx using Guid(5ac2460cd498b44d593644491231eff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d838e3f535fe882a6d63d2a345867e') in 0.080931 seconds 
+  Import took 0.084475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/LEGO Data/Geometry/HatsAndHair/Hats/m53980.fbx
+  artifactKey: Guid(db4855b2c5fd249af940a770832761dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/HatsAndHair/Hats/m53980.fbx using Guid(db4855b2c5fd249af940a770832761dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c31eddf33701976cc252c234cedbcf') in 0.030952 seconds 
+  Import took 0.033903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023343 seconds.
+  path: Assets/LEGO Data/Geometry/HatsAndHair/Hats/m53980.fbx
+  artifactKey: Guid(db4855b2c5fd249af940a770832761dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Geometry/HatsAndHair/Hats/m53980.fbx using Guid(db4855b2c5fd249af940a770832761dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c31eddf33701976cc252c234cedbcf') in 0.030030 seconds 
+  Import took 0.033242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.503521 seconds.
+  path: Assets/LEGO Data/Materials/Faces/Wu.mat
+  artifactKey: Guid(7c64432a6163e4f70a5dba3dc9b4c062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Faces/Wu.mat using Guid(7c64432a6163e4f70a5dba3dc9b4c062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4309a3ccd2651ab25f905a75cb5d21e3') in 0.170844 seconds 
+  Import took 0.174022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Win Action Side.mat
+  artifactKey: Guid(ded2ef47b2cd842238af067566357b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Win Action Side.mat using Guid(ded2ef47b2cd842238af067566357b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c4c46338a5e4c3f3a37fbbc6b1e013') in 0.069939 seconds 
+  Import took 0.072874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Main_White.mat
+  artifactKey: Guid(8658401900e95406698385d5d6b9fb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Main_White.mat using Guid(8658401900e95406698385d5d6b9fb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735e42d4072857f28ff84e57c7c4b81f') in 0.114618 seconds 
+  Import took 0.117609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Touch Trigger Side.mat
+  artifactKey: Guid(e5ad3efa36a9c46b4812cff69a557ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Touch Trigger Side.mat using Guid(e5ad3efa36a9c46b4812cff69a557ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d6db01d8b8858b57546a2fb4efb1b9') in 0.009315 seconds 
+  Import took 0.012775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/LEGO Data/Materials/Faces/Zane.mat
+  artifactKey: Guid(3f3ea942ef5114f748be06a1ddc9b1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Faces/Zane.mat using Guid(3f3ea942ef5114f748be06a1ddc9b1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3597ee0d00aebb2833ac7342784a679e') in 0.010105 seconds 
+  Import took 0.013273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Main_Yellow.mat
+  artifactKey: Guid(14b5582aabf5b4fc995ebeedc517ad6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Main_Yellow.mat using Guid(14b5582aabf5b4fc995ebeedc517ad6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f90737196e7a6c2790b443cda4e1e3d') in 0.009373 seconds 
+  Import took 0.012709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.544147 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Main_MediumStoneGrey.mat
+  artifactKey: Guid(bb65d79c40aa04155872ede246fc4d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Main_MediumStoneGrey.mat using Guid(bb65d79c40aa04155872ede246fc4d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d37704a52d5d3bbb49b4b3d02ef99b3') in 0.009658 seconds 
+  Import took 0.013079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Main_NewDarkRed.mat
+  artifactKey: Guid(d7efeb4e6863c47c3b019dd05d92271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Main_NewDarkRed.mat using Guid(d7efeb4e6863c47c3b019dd05d92271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55efc50c417adf81c1ccd094045d11e6') in 0.008829 seconds 
+  Import took 0.011802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014136 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Main_FlameYellowOrange.mat
+  artifactKey: Guid(8c9bd765ab5c44adf9191fb6ea4f1ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Main_FlameYellowOrange.mat using Guid(8c9bd765ab5c44adf9191fb6ea4f1ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa8d9456a403d9cae0a0ede502e0662') in 0.008913 seconds 
+  Import took 0.011980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Main_LightRoyalBlue.mat
+  artifactKey: Guid(4c35a5612af8f4c10905f9966323657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Main_LightRoyalBlue.mat using Guid(4c35a5612af8f4c10905f9966323657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344af59320471a83841eec3bff8ffea8') in 0.009369 seconds 
+  Import took 0.012396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Main_FlameYellowOrange.mat
+  artifactKey: Guid(8c9bd765ab5c44adf9191fb6ea4f1ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Main_FlameYellowOrange.mat using Guid(8c9bd765ab5c44adf9191fb6ea4f1ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa8d9456a403d9cae0a0ede502e0662') in 0.009575 seconds 
+  Import took 0.012499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060893 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Main_BrightYellowGreen.mat
+  artifactKey: Guid(37ae64752008d482e881edd18d2849fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Main_BrightYellowGreen.mat using Guid(37ae64752008d482e881edd18d2849fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3383de964ab6e7ed4d8b580721d4ee3') in 0.009509 seconds 
+  Import took 0.012902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Main_DarkGreen.mat
+  artifactKey: Guid(e2756ab1f7f614722aa5e3c5335fbd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Main_DarkGreen.mat using Guid(e2756ab1f7f614722aa5e3c5335fbd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e995e8bc27a0ac182bca1e68a225e2') in 0.008497 seconds 
+  Import took 0.011414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.022493 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Main_BrightBluishGreen.mat
+  artifactKey: Guid(6c084e0ddf2594d64baff5e8c0627f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Main_BrightBluishGreen.mat using Guid(6c084e0ddf2594d64baff5e8c0627f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68410668c55dc62c7d4eab67ac926ce') in 0.010681 seconds 
+  Import took 0.013979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Main_BrightRed.mat
+  artifactKey: Guid(9a2d9c504ec3c764dae4fde9217ca206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Main_BrightRed.mat using Guid(9a2d9c504ec3c764dae4fde9217ca206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fdfe2d4583f248aab3be468fd65a97') in 0.008517 seconds 
+  Import took 0.011378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062819 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Main_Black.mat
+  artifactKey: Guid(8dcd438adbd5b43abbb2f86bb95a2970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Main_Black.mat using Guid(8dcd438adbd5b43abbb2f86bb95a2970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc1eb83f67a473a5bacc9e0da49a1bd') in 0.010699 seconds 
+  Import took 0.013989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Main_BrightBlue.mat
+  artifactKey: Guid(6738fefded8014169b3490e7e8e07772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Main_BrightBlue.mat using Guid(6738fefded8014169b3490e7e8e07772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3ba8c9686c194358e88b507d14b5a4') in 0.009088 seconds 
+  Import took 0.012245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.733422 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Wu/Torso_Front_Wu.mat
+  artifactKey: Guid(26831672e43ec465a9e768d435fbe2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Wu/Torso_Front_Wu.mat using Guid(26831672e43ec465a9e768d435fbe2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab805134a045fdece9b3aa51a59c7614') in 0.012833 seconds 
+  Import took 0.016169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Zane/Torso_Front_Zane.mat
+  artifactKey: Guid(afa4f4a41d006417f9392fd08c580973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Zane/Torso_Front_Zane.mat using Guid(afa4f4a41d006417f9392fd08c580973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fbb47a2da0b5d1f0661c3ddda9deba') in 0.012561 seconds 
+  Import took 0.015969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040292 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_White_d643228.mat
+  artifactKey: Guid(5806ef7f24c904bcb804cab71401374e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_White_d643228.mat using Guid(5806ef7f24c904bcb804cab71401374e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffa1253c028c3ebacb3a3c562563348') in 0.010635 seconds 
+  Import took 0.013997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_White_d643477.mat
+  artifactKey: Guid(c42f21760c93147f59e9e77d16b48e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_White_d643477.mat using Guid(c42f21760c93147f59e9e77d16b48e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c5736344498ef3867d4383c708018d') in 0.009719 seconds 
+  Import took 0.012929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134082 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_White_d90930.mat
+  artifactKey: Guid(918ee78dada97443fa37179ca7685918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_White_d90930.mat using Guid(918ee78dada97443fa37179ca7685918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f0baf86e0f06c3fb661dd838a38596') in 0.010741 seconds 
+  Import took 0.013831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_White_d639159.mat
+  artifactKey: Guid(93a5be7deb3c34bb38f3b08f99bfde99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_White_d639159.mat using Guid(93a5be7deb3c34bb38f3b08f99bfde99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42435b76f8eca1ca977ea79ed470d0c8') in 0.009357 seconds 
+  Import took 0.012301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.673652 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Nya/Torso_Front_Nya.mat
+  artifactKey: Guid(c2eb2b5a333ab44bea1e4ef077289f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Nya/Torso_Front_Nya.mat using Guid(c2eb2b5a333ab44bea1e4ef077289f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c520ada5425a8dfe0fd02e1ad0549d') in 0.011227 seconds 
+  Import took 0.014720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/StoneArmyScout/Torso_Front_StoneArmyScout.mat
+  artifactKey: Guid(b318c685cf7ba4867ab20525ee5de7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/StoneArmyScout/Torso_Front_StoneArmyScout.mat using Guid(b318c685cf7ba4867ab20525ee5de7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df14fa47a8db4c706dc6f58733e32f6') in 0.010014 seconds 
+  Import took 0.012913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025132 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_MediumStoneGrey_d643276.mat
+  artifactKey: Guid(f745ecdfab2c64358b31371a758f0075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_MediumStoneGrey_d643276.mat using Guid(f745ecdfab2c64358b31371a758f0075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26509d1cbf6a24b4f4e4bb1370d2080') in 0.009839 seconds 
+  Import took 0.013034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Nindroid/Torso_Front_Nindroid.mat
+  artifactKey: Guid(6b3f67cc72fc7444eb25ac0aefe0afe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Nindroid/Torso_Front_Nindroid.mat using Guid(6b3f67cc72fc7444eb25ac0aefe0afe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa9ff9654cb8eb49f90269efa31fb2e') in 0.010588 seconds 
+  Import took 0.013702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013117 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_LightRoyalBlue_d622369.mat
+  artifactKey: Guid(5f6466e9a2c424a84bf649a9145f5b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_LightRoyalBlue_d622369.mat using Guid(5f6466e9a2c424a84bf649a9145f5b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1ef837361c86e274680dd13a99162c') in 0.010611 seconds 
+  Import took 0.013805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Lloyd/Torso_Front_Lloyd.mat
+  artifactKey: Guid(79f61cde47c4e4a498b9b62a66cd36d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Lloyd/Torso_Front_Lloyd.mat using Guid(79f61cde47c4e4a498b9b62a66cd36d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27198fdfd215617d06c7c4c602fb0a3') in 0.010468 seconds 
+  Import took 0.013433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.586298 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Kai/Torso_Front_Kai.mat
+  artifactKey: Guid(74c04cb2f1c6b4a53bb9f0d2360107e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Kai/Torso_Front_Kai.mat using Guid(74c04cb2f1c6b4a53bb9f0d2360107e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c54856f46222b0b9fde0843f3530849') in 0.010311 seconds 
+  Import took 0.013443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Lasha/Torso_Front_Lasha.mat
+  artifactKey: Guid(f90b9509fc02140069fbd45f28df91be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Lasha/Torso_Front_Lasha.mat using Guid(f90b9509fc02140069fbd45f28df91be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29431bf2d0cb181a21e0b0809189b6c5') in 0.010268 seconds 
+  Import took 0.013900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025770 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Jacob/Torso_Front_Jacob.mat
+  artifactKey: Guid(f2b423814365f4c2b8e5c74cc545aa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Jacob/Torso_Front_Jacob.mat using Guid(f2b423814365f4c2b8e5c74cc545aa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf658f043595e72a5ca69a00129f5062') in 0.011106 seconds 
+  Import took 0.014464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Jay/Torso_Front_Jay.mat
+  artifactKey: Guid(2d1e239c1093643b9b51e4ea073b033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Jay/Torso_Front_Jay.mat using Guid(2d1e239c1093643b9b51e4ea073b033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4406234e568372cdb4dfde4a7127e252') in 0.010431 seconds 
+  Import took 0.013640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.293879 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Eyezor/Torso_Front_Eyezor.mat
+  artifactKey: Guid(5501965950ec14699858513cd2789e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Eyezor/Torso_Front_Eyezor.mat using Guid(5501965950ec14699858513cd2789e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0da28eb56a3b5e5e6fb0527f7de9ed') in 0.011220 seconds 
+  Import took 0.014401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_FlameYellowOrange_d643189.mat
+  artifactKey: Guid(03a6ba573a63b4e8a9595065ada88c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_FlameYellowOrange_d643189.mat using Guid(03a6ba573a63b4e8a9595065ada88c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53828f28115033c7271f0a20d85894c') in 0.009403 seconds 
+  Import took 0.012356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013668 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Cole/Torso_Front_Cole.mat
+  artifactKey: Guid(0330792ab1d394f61bdc2afd2bf3beb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Cole/Torso_Front_Cole.mat using Guid(0330792ab1d394f61bdc2afd2bf3beb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b803f9cc1771c07f7084a9567c2049f') in 0.011783 seconds 
+  Import took 0.015157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_DarkGreen_d646404.mat
+  artifactKey: Guid(bf8c70d70f83a4e2c851d93fec924c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_DarkGreen_d646404.mat using Guid(bf8c70d70f83a4e2c851d93fec924c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00382879b0124c14b0ab56f61d09f21e') in 0.009450 seconds 
+  Import took 0.012355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Cole/Torso_Front_Cole.mat
+  artifactKey: Guid(0330792ab1d394f61bdc2afd2bf3beb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Cole/Torso_Front_Cole.mat using Guid(0330792ab1d394f61bdc2afd2bf3beb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b803f9cc1771c07f7084a9567c2049f') in 0.009537 seconds 
+  Import took 0.012491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005157 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_BrightRed_d639161.mat
+  artifactKey: Guid(e555e2f18ef6d49fdbe4195c5156b2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_BrightRed_d639161.mat using Guid(e555e2f18ef6d49fdbe4195c5156b2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147c7870e965a30e3a61c3c1488f1658') in 0.009318 seconds 
+  Import took 0.012370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_BrightRed_d643189_2.mat
+  artifactKey: Guid(139bf22a8059e46319a568aaffe31be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_BrightRed_d643189_2.mat using Guid(139bf22a8059e46319a568aaffe31be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d5120622036f1d0f0d8c51679da011') in 0.010249 seconds 
+  Import took 0.013176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.283189 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_BrightBluishGreen_d644726.mat
+  artifactKey: Guid(fcf3798db29c14ff0abe1ac916362f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_BrightBluishGreen_d644726.mat using Guid(fcf3798db29c14ff0abe1ac916362f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7b47e35d81210757e3fdb47921c1ae') in 0.010064 seconds 
+  Import took 0.013414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_BrightRed_d619734.mat
+  artifactKey: Guid(7bdb7cfc0155143edabad41780fad0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_BrightRed_d619734.mat using Guid(7bdb7cfc0155143edabad41780fad0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233f9c665d35cf00e8eeeb15053444a4') in 0.009533 seconds 
+  Import took 0.012786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.474765 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_Black_d630780.mat
+  artifactKey: Guid(6117568c65aea426db0a1db878e5d165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_Black_d630780.mat using Guid(6117568c65aea426db0a1db878e5d165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670f496c84534a39716ff17d4f8f0248') in 0.011437 seconds 
+  Import took 0.014658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_BrightBlue_636822.mat
+  artifactKey: Guid(74ad254133272404e9db828bda25bbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_BrightBlue_636822.mat using Guid(74ad254133272404e9db828bda25bbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fb834129d6b0901c711c03757557c1') in 0.009417 seconds 
+  Import took 0.012604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_Black_d630780.mat
+  artifactKey: Guid(6117568c65aea426db0a1db878e5d165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_Black_d630780.mat using Guid(6117568c65aea426db0a1db878e5d165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670f496c84534a39716ff17d4f8f0248') in 0.008920 seconds 
+  Import took 0.012159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008007 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_Black_d609537.mat
+  artifactKey: Guid(687c3a7a83c6a4d298b44e8008526528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_Black_d609537.mat using Guid(687c3a7a83c6a4d298b44e8008526528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c0ebd38231f33d11d4d1437ba6c916') in 0.009172 seconds 
+  Import took 0.012454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_Black_d614806.mat
+  artifactKey: Guid(3b65df932b903499a9313d608a76fedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_Black_d614806.mat using Guid(3b65df932b903499a9313d608a76fedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed32bee87794bddbeb8234db1a82977') in 0.009104 seconds 
+  Import took 0.012025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Zane/Torso_Back_Zane.mat
+  artifactKey: Guid(cb4a4934cf58a4e25bad401c0c413df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Zane/Torso_Back_Zane.mat using Guid(cb4a4934cf58a4e25bad401c0c413df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366a8116c36c543479157ddd5d09194c') in 0.012068 seconds 
+  Import took 0.015237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Front_Black_d609536.mat
+  artifactKey: Guid(c64d77eef19634bd1830b4e811e61820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Front_Black_d609536.mat using Guid(c64d77eef19634bd1830b4e811e61820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c19f78aa30b478aaceec4829a7daa40') in 0.010103 seconds 
+  Import took 0.012995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.245232 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Back_White_d643478.mat
+  artifactKey: Guid(67937f8e669de4efd973aea457e31f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Back_White_d643478.mat using Guid(67937f8e669de4efd973aea457e31f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd572bc24031b3f257e6fced2ce5f8fa7') in 0.010687 seconds 
+  Import took 0.013843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Wu/Torso_Back_Wu.mat
+  artifactKey: Guid(5b8967637e68f407cb27dc4459c0d85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Wu/Torso_Back_Wu.mat using Guid(5b8967637e68f407cb27dc4459c0d85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76288c35ce11ab5267428981638d5e91') in 0.010019 seconds 
+  Import took 0.012886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Back_White_d639162.mat
+  artifactKey: Guid(4e3fb1639322c43b9aed2eed92a3d994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Back_White_d639162.mat using Guid(4e3fb1639322c43b9aed2eed92a3d994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d5495afa05b8e3f34a7efe0140e177') in 0.010427 seconds 
+  Import took 0.013542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Back_White_d643229.mat
+  artifactKey: Guid(12b57fa0636ba412880a547ff7d5e1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Back_White_d643229.mat using Guid(12b57fa0636ba412880a547ff7d5e1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec38920fab0b9a75a5961948e2fef7b') in 0.009578 seconds 
+  Import took 0.013069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023938 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/StoneArmyScout/Torso_Back_StoneArmyScout.mat
+  artifactKey: Guid(b01ca8a9092c84969ba6acb8a0e1746f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/StoneArmyScout/Torso_Back_StoneArmyScout.mat using Guid(b01ca8a9092c84969ba6acb8a0e1746f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e216bc99892a0fa137c71dda2fdc0a') in 0.010333 seconds 
+  Import took 0.013498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Back_White_d90949.mat
+  artifactKey: Guid(818fe668bf0f745639532c4bb49a6d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Back_White_d90949.mat using Guid(818fe668bf0f745639532c4bb49a6d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be397be0359549adb32d11d37e453763') in 0.009448 seconds 
+  Import took 0.012560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025614 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Nindroid/Torso_Back_Nindroid.mat
+  artifactKey: Guid(43a6b50ab037a4df7b487970f163c575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Nindroid/Torso_Back_Nindroid.mat using Guid(43a6b50ab037a4df7b487970f163c575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0980c3943aa8bfc3c8578d3e851e1c1d') in 0.011991 seconds 
+  Import took 0.015154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Nya/Torso_Back_Nya.mat
+  artifactKey: Guid(2b99743b4249747e89146b00968dfef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Nya/Torso_Back_Nya.mat using Guid(2b99743b4249747e89146b00968dfef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907b078b15e01d9cec71b56d220ef9a2') in 0.010143 seconds 
+  Import took 0.013365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 446.245586 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Lloyd/Torso_Back_Lloyd.mat
+  artifactKey: Guid(4a3c472c6bed4443490602ce6f1e9e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Lloyd/Torso_Back_Lloyd.mat using Guid(4a3c472c6bed4443490602ce6f1e9e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711148d9434511af8b59783615089ee4') in 0.012635 seconds 
+  Import took 0.016701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Back_MediumStoneGrey_d643278.mat
+  artifactKey: Guid(e852b900d30d7488385b29fecb3685ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Back_MediumStoneGrey_d643278.mat using Guid(e852b900d30d7488385b29fecb3685ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9214981e5d4a7d23dea4c4c4321e3ab3') in 0.011386 seconds 
+  Import took 0.014259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.044723 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Lasha/Torso_Back_Lasha.mat
+  artifactKey: Guid(36aa318c8640f43f0aae53d490ab2a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Lasha/Torso_Back_Lasha.mat using Guid(36aa318c8640f43f0aae53d490ab2a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dde402f257dc1bf55b1dc50936bced5') in 0.010745 seconds 
+  Import took 0.014132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Back_LightRoyalBlue_d622370.mat
+  artifactKey: Guid(0210dae3bc2ed40ab89f785ca4a5c6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Back_LightRoyalBlue_d622370.mat using Guid(0210dae3bc2ed40ab89f785ca4a5c6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acd0e1bb6aa93b36f5cbedec3216e0b') in 0.009718 seconds 
+  Import took 0.012755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019423 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Jay/Torso_Back_Jay.mat
+  artifactKey: Guid(cf22e70fdcea649ebb5a8d50c6b7ff92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Jay/Torso_Back_Jay.mat using Guid(cf22e70fdcea649ebb5a8d50c6b7ff92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d0cb18e1919e9a9c8d336b6ee5111f') in 0.009956 seconds 
+  Import took 0.013102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Kai/Torso_Back_Kai.mat
+  artifactKey: Guid(9c3745faf9c73425e9c9dd2fe184e57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Kai/Torso_Back_Kai.mat using Guid(9c3745faf9c73425e9c9dd2fe184e57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900fd50e843bf352697fb2ac92730112') in 0.010132 seconds 
+  Import took 0.013036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018002 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Back_FlameYellowOrange_d643190.mat
+  artifactKey: Guid(4164dd85dfbb54fc99022c5c03ef3524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Back_FlameYellowOrange_d643190.mat using Guid(4164dd85dfbb54fc99022c5c03ef3524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7a90643de9c61e93ce3d7187e6c92f') in 0.009664 seconds 
+  Import took 0.012758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Jacob/Torso_Back_Jacob.mat
+  artifactKey: Guid(939bd0bc97c2641b9817c73543caf05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Jacob/Torso_Back_Jacob.mat using Guid(939bd0bc97c2641b9817c73543caf05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9421e44126b2d4a9389ff901c73cc39d') in 0.015820 seconds 
+  Import took 0.018905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006656 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Back_DarkGreen_d646405.mat
+  artifactKey: Guid(91af3a4f74af74502bbd065805c1471a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Back_DarkGreen_d646405.mat using Guid(91af3a4f74af74502bbd065805c1471a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163df8b10dd5500bd5fc075f861d4f1c') in 0.009959 seconds 
+  Import took 0.013304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Eyezor/Torso_Back_Eyezor.mat
+  artifactKey: Guid(493ba4965de9e44bbafdf082d6587fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Eyezor/Torso_Back_Eyezor.mat using Guid(493ba4965de9e44bbafdf082d6587fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523bb35e9e34ea8daf13a050a48075a2') in 0.010120 seconds 
+  Import took 0.013415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.502621 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Back_BrightRed_d639175.mat
+  artifactKey: Guid(2b99987094da248f9a491bc53e4dc74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Back_BrightRed_d639175.mat using Guid(2b99987094da248f9a491bc53e4dc74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a220b4eef515ea1b835fc9442a9c2472') in 0.010491 seconds 
+  Import took 0.013646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Cole/Torso_Back_Cole.mat
+  artifactKey: Guid(c5586a070b3bb4697b16472c8397a846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Cole/Torso_Back_Cole.mat using Guid(c5586a070b3bb4697b16472c8397a846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b767549c3b09e0db9e95c35fdb1128d') in 0.010468 seconds 
+  Import took 0.013417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018697 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Back_BrightBluishGreen_d644727.mat
+  artifactKey: Guid(5ef0c937414a84b329d0de6cfc77979c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Back_BrightBluishGreen_d644727.mat using Guid(5ef0c937414a84b329d0de6cfc77979c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ebcc4b431ea99dc0ab682e1a4d6be0') in 0.009470 seconds 
+  Import took 0.012589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Back_BrightRed.mat
+  artifactKey: Guid(2b070224c4a604eebae0975bfa96c50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Back_BrightRed.mat using Guid(2b070224c4a604eebae0975bfa96c50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2925893da08947221ebeeca174a44bdf') in 0.008660 seconds 
+  Import took 0.011844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.418172 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Back_Black_d614806.mat
+  artifactKey: Guid(2e0acf9492cf645a1804534d74bb287f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Back_Black_d614806.mat using Guid(2e0acf9492cf645a1804534d74bb287f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a05ddb7f79f68af8f903463865513b7') in 0.009955 seconds 
+  Import took 0.013105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Back_BrightBlue.mat
+  artifactKey: Guid(57755e96ecaec456fb5371269403f32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Back_BrightBlue.mat using Guid(57755e96ecaec456fb5371269403f32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8cdc18a42743fcdef35318b6a96294') in 0.008724 seconds 
+  Import took 0.011672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Timer Trigger Side.mat
+  artifactKey: Guid(b7e5bb6c489f14eb0bb12454f18fd97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Timer Trigger Side.mat using Guid(b7e5bb6c489f14eb0bb12454f18fd97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a2704b3ec59cdc43f1be3885006bcb') in 0.010091 seconds 
+  Import took 0.013098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Back_Black.mat
+  artifactKey: Guid(dddda2637372c46c9877745f9a52101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Back_Black.mat using Guid(dddda2637372c46c9877745f9a52101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c936e13b240dc281f3b2a3b182e6a3') in 0.008289 seconds 
+  Import took 0.011122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001928 seconds.
+  path: Assets/LEGO Data/Materials/Bodies/Torso_Back_Black.mat
+  artifactKey: Guid(dddda2637372c46c9877745f9a52101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Bodies/Torso_Back_Black.mat using Guid(dddda2637372c46c9877745f9a52101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c936e13b240dc281f3b2a3b182e6a3') in 0.007640 seconds 
+  Import took 0.010866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021580 seconds.
+  path: Assets/LEGO/Materials/Particles/Thought Bubble.mat
+  artifactKey: Guid(ea51f85e31d9fe14b8b37770d5ee89de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Particles/Thought Bubble.mat using Guid(ea51f85e31d9fe14b8b37770d5ee89de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750c97e77582f207701e7e3aa1e05f96') in 0.037929 seconds 
+  Import took 0.041024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/LEGO/Textures/UI/Materials/Thought Sub Bubble.mat
+  artifactKey: Guid(d939a70721d59a2408ed709efa182c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Textures/UI/Materials/Thought Sub Bubble.mat using Guid(d939a70721d59a2408ed709efa182c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fbced2fcf1856534558d154dd277f8') in 0.008833 seconds 
+  Import took 0.012025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.382609 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Speak Action Side.mat
+  artifactKey: Guid(94a1d4a67b2cc70449bb2cd98a5cde3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Speak Action Side.mat using Guid(94a1d4a67b2cc70449bb2cd98a5cde3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1fe88d67f1579f4fd4c7e9235541a7') in 0.008444 seconds 
+  Import took 0.011632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/LEGO Data/Materials/Faces/StoneArmyScout.mat
+  artifactKey: Guid(924c5b680edaa4b659816bd97605d2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO Data/Materials/Faces/StoneArmyScout.mat using Guid(924c5b680edaa4b659816bd97605d2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3c929e1590cd9e15a98f990c19d1f5') in 0.009320 seconds 
+  Import took 0.012428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019438 seconds.
+  path: Assets/LEGO/Materials/Particles/Sparkle.mat
+  artifactKey: Guid(6d2cc003531254d44ae04da55c7e1f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Particles/Sparkle.mat using Guid(6d2cc003531254d44ae04da55c7e1f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05eee7c12c36b5f57556fa705023910a') in 0.021830 seconds 
+  Import took 0.024869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Spawn Action Side.mat
+  artifactKey: Guid(d8af2095bf5c0324089b41db4705c5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Spawn Action Side.mat using Guid(d8af2095bf5c0324089b41db4705c5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0439bb1bcf77d35d4db6c2074c4214') in 0.009342 seconds 
+  Import took 0.012224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/LEGO/Materials/Particles/Sparkle.mat
+  artifactKey: Guid(6d2cc003531254d44ae04da55c7e1f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/Particles/Sparkle.mat using Guid(6d2cc003531254d44ae04da55c7e1f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05eee7c12c36b5f57556fa705023910a') in 0.007783 seconds 
+  Import took 0.011122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/LEGO/Materials/LEGO Behaviour Icons/Spawn Action Side.mat
+  artifactKey: Guid(d8af2095bf5c0324089b41db4705c5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Materials/LEGO Behaviour Icons/Spawn Action Side.mat using Guid(d8af2095bf5c0324089b41db4705c5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0439bb1bcf77d35d4db6c2074c4214') in 0.007605 seconds 
+  Import took 0.010627 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003113 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (809ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (655ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2001 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.9 MB.
+System memory in use after: 96.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2516.
+Total: 3.298200 ms (FindLiveObjects: 0.194500 ms CreateObjectMapping: 0.067500 ms MarkObjects: 2.053300 ms  DeleteObjects: 0.981700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 554.609915 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/Adventurer.prefab
+  artifactKey: Guid(934668409d4904809a1489b29640e933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/Adventurer.prefab using Guid(934668409d4904809a1489b29640e933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8c97e0396000213e897e9c9e153ef8') in 0.285107 seconds 
+  Import took 0.295688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.156809 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/One Button Adventurer.prefab
+  artifactKey: Guid(c20b4674481d554449eb8192465c813b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/One Button Adventurer.prefab using Guid(c20b4674481d554449eb8192465c813b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d75016adfd59770d11c6ff6d9f4da61') in 0.125836 seconds 
+  Import took 0.135356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.904445 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/One Button Astronaut.prefab
+  artifactKey: Guid(a406d8b47c897e64ab2237997389da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/One Button Astronaut.prefab using Guid(a406d8b47c897e64ab2237997389da83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef430326224217d31d8e81c986f13a1b') in 0.118506 seconds 
+  Import took 0.127908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.825444 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/One Button Pirate.prefab
+  artifactKey: Guid(bdb4a2f1ae726b7409b48daef917e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/One Button Pirate.prefab using Guid(bdb4a2f1ae726b7409b48daef917e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34fa9b82104a795742aed7c4b7b2253') in 0.110813 seconds 
+  Import took 0.121279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.581281 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/One Button Pizza Boy.prefab
+  artifactKey: Guid(f404664eaa5d66a4ca04b24672149c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/One Button Pizza Boy.prefab using Guid(f404664eaa5d66a4ca04b24672149c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5877547d53f8eec040c52e90cde77a15') in 0.118266 seconds 
+  Import took 0.127729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.868972 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/Pirate.prefab
+  artifactKey: Guid(6b29134dff99b4b5c89eceee36fbb95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/Pirate.prefab using Guid(6b29134dff99b4b5c89eceee36fbb95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245146280a25c8a93325b38dd7e14288') in 0.116105 seconds 
+  Import took 0.126838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.572792 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/Pizza Boy.prefab
+  artifactKey: Guid(422c298e5edde4efeb679ddef8883c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/Pizza Boy.prefab using Guid(422c298e5edde4efeb679ddef8883c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e91b0d0a4f7ce8f4e92d283b411e78') in 0.114586 seconds 
+  Import took 0.124932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.596571 seconds.
+  path: Assets/LEGO/Prefabs/LEGO Minifigs/Astronaut.prefab
+  artifactKey: Guid(1f174dd798c1d408a9b88ca831df4ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/LEGO Minifigs/Astronaut.prefab using Guid(1f174dd798c1d408a9b88ca831df4ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bdabe01f907767d0c6e9bdf42810cd') in 0.116522 seconds 
+  Import took 0.126195 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002980 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.832 seconds
+Domain Reload Profiling:
+	ReloadAssembly (833ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (686ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2001 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2519.
+Total: 3.766700 ms (FindLiveObjects: 0.190200 ms CreateObjectMapping: 0.082100 ms MarkObjects: 2.164300 ms  DeleteObjects: 1.329100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 112.586512 seconds.
+  path: Assets/LEGO/Prefabs/Camera/ThirdPersonFreeLookCamera.prefab
+  artifactKey: Guid(7760cce19732e194e9bf2b10175a5eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/Camera/ThirdPersonFreeLookCamera.prefab using Guid(7760cce19732e194e9bf2b10175a5eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff46a518ce5c7fb2035134f0ca933ff') in 0.035299 seconds 
+  Import took 0.038582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/LEGO/Prefabs/Camera/Player Virtual Camera.prefab
+  artifactKey: Guid(5a06dfbfd61f30d43b10055b6f2b51cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LEGO/Prefabs/Camera/Player Virtual Camera.prefab using Guid(5a06dfbfd61f30d43b10055b6f2b51cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bd5619574be6f6155a6da9f7aed525') in 0.008203 seconds 
+  Import took 0.011397 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003103 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Domain Reload Profiling:
+	ReloadAssembly (840ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (682ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2001 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2521.
+Total: 4.993200 ms (FindLiveObjects: 0.272900 ms CreateObjectMapping: 0.091300 ms MarkObjects: 2.613300 ms  DeleteObjects: 2.013900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Domain Reload Profiling:
+	ReloadAssembly (887ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (726ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2001 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2523.
+Total: 3.663400 ms (FindLiveObjects: 0.225100 ms CreateObjectMapping: 0.081400 ms MarkObjects: 2.242500 ms  DeleteObjects: 1.112300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.837 seconds
+Domain Reload Profiling:
+	ReloadAssembly (838ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (692ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (250ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2001 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2525.
+Total: 5.362700 ms (FindLiveObjects: 0.210200 ms CreateObjectMapping: 0.089500 ms MarkObjects: 2.992700 ms  DeleteObjects: 2.068900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
